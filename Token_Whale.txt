@@ -1,1 +1,10 @@
+1. Player, ContractA
 
+2. P.approve(A, 10000)
+
+3. A.transferFrom(address from (P), address to (P), uint256 value (2))
+
+4. A.tansfer to P.
+
+
+A.approve(P, 10000)
