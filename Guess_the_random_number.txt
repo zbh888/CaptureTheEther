@@ -1,0 +1,8 @@
+$ curl https://ropsten.infura.io/v3/95d8dd42bc6140308160208c98b266e3 \
+-X POST \
+-H "Content-Type: application/json" \
+-d '{"jsonrpc":"2.0","method":"eth_getStorageAt","params": ["0x32163dE8e1d4cc1fE78045B486B3a2B5dF221673", "0x0", "latest"],"id":1}'
+
+Where "0x32163dE8e1d4cc1fE78045B486B3a2B5dF221673" is the deployed challenge contract address
+
+(Using infura api)
